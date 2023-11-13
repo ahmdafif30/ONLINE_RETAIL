@@ -1,0 +1,11 @@
+INSERT INTO Orders (pelangganID, tgl_order, Status) VALUES
+    (1, '2023-11-01', 'Diproses'),
+    (2, '2023-11-02', 'Dikirim'),
+    (3, '2023-11-03', 'Diproses'),
+    (4, '2023-11-04', 'Selesai'),
+    (5, '2023-11-05', 'Dikirim'),
+    (6, '2023-11-06', 'Diproses'),
+    (7, '2023-11-07', 'Dikirim'),
+    (8, '2023-11-08', 'Selesai'),
+    (9, '2023-11-09', 'Dikirim'),
+    (10, '2023-11-10', 'Diproses');

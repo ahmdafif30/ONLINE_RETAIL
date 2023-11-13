@@ -1,0 +1,8 @@
+UPDATE products
+SET harga = 130000
+WHERE nama_produk = 'Kemeja Batik';
+
+UPDATE products
+SET jumlah_stok = jumlah_stok - 5
+WHERE nama_produk = 'Celana Jeans';
+

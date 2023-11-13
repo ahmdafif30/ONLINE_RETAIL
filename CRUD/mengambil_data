@@ -1,0 +1,11 @@
+-- tabel products
+SELECT * FROM products;
+
+-- tabel Orders
+SELECT * FROM Orders;
+
+-- tabel Payments
+SELECT * FROM Payments;
+
+-- tabel pelanggan
+SELECT * FROM pelanggan;

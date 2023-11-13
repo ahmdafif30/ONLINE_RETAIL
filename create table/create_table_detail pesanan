@@ -1,0 +1,9 @@
+CREATE TABLE detailPesanan (
+    ID_detailPesanan INT PRIMARY KEY AUTO_INCREMENT,
+    order_id INT,
+    ProductID INT,
+    Jumlah INT,
+    Harga DECIMAL(10, 2),
+    FOREIGN KEY (OrderID) REFERENCES Orders(OrderID),
+    FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
+);

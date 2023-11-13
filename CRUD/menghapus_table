@@ -1,0 +1,12 @@
+-- menghapus table products
+DROP TABLE products;
+
+-- menghapus table orders
+DROP TABLE orders;
+
+-- menghapus table pelanggan
+DROP TABLE pelanggan;
+
+-- menghapus table detailPesanan
+DROP TABLE detailPesanan;
+
